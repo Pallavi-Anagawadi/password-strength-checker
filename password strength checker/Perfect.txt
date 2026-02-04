@@ -1,0 +1,102 @@
+
+Password Strength Checker
+
+A simple and interactive **Password Strength Checker** built using **HTML, CSS, and JavaScript**.  
+This project checks password complexity in real time and helps users create strong and secure passwords.
+
+---
+
+## 🚀 Features
+
+- ✅ Real-time password strength checking
+- 👁️ Show / Hide password option
+- 📊 Strength progress bar (Weak / Medium / Strong)
+- 📋 Live password rules checklist
+- 🎨 Clean and user-friendly UI
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure
+- **CSS3** – Styling & layout
+- **JavaScript** – Logic, validation & DOM manipulation
+
+---
+
+## 📁 Project Structure
+
+```
+
+password-strength-checker/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+````
+
+---
+
+## ⚙️ How It Works
+
+The password is evaluated based on the following rules:
+
+- Minimum **8 characters**
+- At least **one uppercase letter**
+- At least **one lowercase letter**
+- At least **one number**
+- At least **one special character**
+
+Each rule increases the strength score.  
+Based on the score, the password is classified as:
+
+| Score | Strength |
+|------|----------|
+| 0–2  | Weak ❌ |
+| 3–4  | Medium ⚠️ |
+| 5    | Strong ✅ |
+
+---
+
+## 🧠 JavaScript Concepts Used
+
+- DOM Manipulation
+- Event Handling (`onkeyup`)
+- Regular Expressions (Regex)
+- Conditional Logic
+- Real-time UI updates
+
+---
+
+## 🔒 Security Note
+
+⚠️ This project performs **client-side validation only**.  
+In real-world applications:
+- Passwords must be validated again on the **server side**
+- Passwords should be **hashed** using algorithms like `bcrypt` or `argon2`
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/password-strength-checker.git
+````
+
+2. Open `index.html` in any web browser
+
+3. Start typing a password to see real-time strength updates 🎉
+
+---
+
+## 📈 Future Enhancements
+
+* Backend validation
+* Password breach check API integration
+* Mobile responsiveness
+* Accessibility improvements
+* Framework version (React / Vue)
+
